@@ -9,7 +9,6 @@ import Foot from './components/views/globals/Foot';
 import Plan from './components/pages/Plan';
 import { getAllTransactions } from './Api/Api';
 
-
 function App() {
 
   const data = useSelector(state => state.dataReducer.data)
